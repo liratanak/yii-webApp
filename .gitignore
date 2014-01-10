@@ -1,0 +1,17 @@
+nbproject
+.DS_Store
+/assets/
+/protected/data/
+/protected/vendor/
+/protected/runtime/
+/runtime/
+/protected/config/local.php
+/protected/yiic
+/protected/yiic.bat
+/protected/yiic.php
+/protected/tests/
+
+
+.project
+.settings/
+

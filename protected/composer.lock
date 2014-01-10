@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "8123e73252ac3520a41f4ec8b99d3681",
+    "packages": [
+        {
+            "name": "yiiext/migrate-command",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiiext/migrate-command.git",
+                "reference": "35f315b1fedc40bc9f551758bdb2b7f969d48005"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/yiiext/migrate-command/archive/35f315b1fedc40bc9f551758bdb2b7f969d48005.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "yii-extension",
+            "description": "This is an enhanced version of the Yii Database Migration Tool that adds module support and many more usefull features.",
+            "homepage": "https://github.com/yiiext/migrate-command",
+            "time": "2013-05-09 15:14:47"
+        },
+        {
+            "name": "yiisoft/yii",
+            "version": "1.1.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii.git",
+                "reference": "f0fee98ee84f70f1f3652f65562c9670e919cb4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/yiisoft/yii/archive/f0fee98ee84f70f1f3652f65562c9670e919cb4e.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library",
+            "description": "Yii PHP Framework",
+            "homepage": "https://github.com/yiisoft/yii"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "yiiext/migrate-command": 20
+    },
+    "platform": {
+        "php": ">=5.3.2"
+    },
+    "platform-dev": [
+
+    ]
+}
