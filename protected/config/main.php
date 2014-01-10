@@ -43,10 +43,10 @@ return array(
 			),
 		),
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=yii_composer_webapp',
+			'connectionString' => 'mysql:host=localhost;dbname=db_name',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'speeder',
+			'username' => 'db_user',
+			'password' => 'db_pass',
 			'charset' => 'utf8',
 		),
 		'errorHandler'=>array(
@@ -65,8 +65,8 @@ return array(
 			'files'=>array(
 				'static/less/styles.less'=>'static/css/styles.css',
 			),
-			'nodePath'=>'/usr/local/bin/node',
-			'compilerPath'=>'./less',
+			'nodePath'=>FALSE,
+			'compilerPath'=>'lessc',
 		),
 		'log'=>array(
 			'class'=>'CLogRouter',
