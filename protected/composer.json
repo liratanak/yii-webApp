@@ -1,45 +1,44 @@
 {
-    "name": "phundament/app",
-    "description": "Yii Distribution",
-    "keywords": ["package", "dependency", "autoload"],
-    "homepage": "http://phundament.com/",
-    "type": "library",
-    "license": "BSD-3-Clause",
-    "authors": [
-    {
-        "name": "Tobias Munk",
-        "email": "schmunk@usrbin.de",
-        "homepage": "http://www.phundament.com"
-    }
-    ],
-    "repositories": [
-    {
-        "packagist": false
-    },{
-        "type":"composer",
-        "url": "http://packages.phundament.com"
-    }
-    ],
-    "require": {
-        "php": ">=5.3.2",
-        "yiisoft/yii": "1.1.*",
-        "yiiext/migrate-command": "@dev"
-    },
-    "autoload": {
-        "psr-0": {
-            "config": "./"
-        }
-    },
-    "scripts": {
-        "pre-install-cmd": "config\\ComposerCallback::preInstall",
-        "post-install-cmd": "config\\ComposerCallback::postInstall",
-        "pre-update-cmd": "config\\ComposerCallback::preUpdate",
-        "post-update-cmd": "config\\ComposerCallback::postUpdate",
-        "post-package-install": [
-        "config\\ComposerCallback::postPackageInstall"
-        ],
-        "post-package-update": [
-        "config\\ComposerCallback::postPackageUpdate"
-        ]
-    }
+	"name": "liratanak/yii-webapp",
+	"description": "Yii Sample Web app",
+	"keywords": ["package", "dependency", "autoload"],
+	"homepage": "http://phundament.com/",
+	"type": "library",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Liratanak",
+			"email": "speeder@gmail.com"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://packages.phundament.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2",
+		"yiisoft/yii": "1.1.*",
+		"yiiext/migrate-command": "@dev",
+
+		"smarty/smarty": "v3.1.16",
+		"yiiext/smarty-renderer": "1.0.*",
+
+		"cloudhead/less.js" : "1.6.*",
+		"twitter/bootstrap" : "3.0.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"config": "./"
+		}
+	},
+	"scripts": {
+		"pre-install-cmd": "config\\ComposerCallback::preInstall",
+		"post-install-cmd": "config\\ComposerCallback::postInstall",
+		"pre-update-cmd": "config\\ComposerCallback::preUpdate",
+		"post-update-cmd": "config\\ComposerCallback::postUpdate",
+		"post-package-install": ["config\\ComposerCallback::postPackageInstall"],
+		"post-package-update": ["config\\ComposerCallback::postPackageUpdate"]
+	}
 }

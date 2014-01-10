@@ -53,6 +53,13 @@ return array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
 		),
+		'viewRenderer'=>array(
+				'class'=>'application.vendor.yiiext.smarty-renderer.ESmartyViewRenderer',
+				'fileExtension' => '.tpl',
+				'pluginsDir' => 'application.vendor.smarty.smarty.distribution.libs.plugins',
+				'smartyDir' => 'application.vendor.smarty.smarty.distribution.libs'
+				//'configDir' => 'application.smartyConfig',
+		),
 		'log'=>array(
 			'class'=>'CLogRouter',
 			'routes'=>array(
@@ -74,6 +81,6 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'speeder.nfh@gmail.com',
 	),
 );

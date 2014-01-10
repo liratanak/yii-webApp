@@ -3,8 +3,88 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "8123e73252ac3520a41f4ec8b99d3681",
+    "hash": "0a267c0d28226daed26954751127e396",
     "packages": [
+        {
+            "name": "cloudhead/less.js",
+            "version": "v1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/less/less.js.git",
+                "reference": "58af9f9763f1c816032d221237fb04b5b460142b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/less/less.js/archive/58af9f9763f1c816032d221237fb04b5b460142b.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library",
+            "description": "Leaner CSS",
+            "homepage": "https://github.com/less/less.js"
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "v3.1.16",
+            "source": {
+                "type": "svn",
+                "url": "http://smarty-php.googlecode.com/svn",
+                "reference": "/tags/v3.1.16/@4802"
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "distribution/libs/Smarty.class.php",
+                    "distribution/libs/SmartyBC.class.php",
+                    "distribution/libs/sysplugins/smarty_security.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2013-12-17 16:56:58"
+        },
+        {
+            "name": "twitter/bootstrap",
+            "version": "v3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "6d03173a1aad98e75f7d33e65b411c519176c59a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/twbs/bootstrap/archive/6d03173a1aad98e75f7d33e65b411c519176c59a.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library",
+            "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
+            "homepage": "https://github.com/twbs/bootstrap"
+        },
         {
             "name": "yiiext/migrate-command",
             "version": "dev-master",
@@ -23,6 +103,24 @@
             "description": "This is an enhanced version of the Yii Database Migration Tool that adds module support and many more usefull features.",
             "homepage": "https://github.com/yiiext/migrate-command",
             "time": "2013-05-09 15:14:47"
+        },
+        {
+            "name": "yiiext/smarty-renderer",
+            "version": "v1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiiext/smarty-renderer.git",
+                "reference": "d384c996c3fb9b87193b8703f38d228ca891ed91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/yiiext/smarty-renderer/archive/d384c996c3fb9b87193b8703f38d228ca891ed91.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "yii-extension",
+            "description": "This extension allows you to use Smarty 3 templates in Yii.",
+            "homepage": "https://github.com/yiiext/smarty-renderer"
         },
         {
             "name": "yiisoft/yii",
