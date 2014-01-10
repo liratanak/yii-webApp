@@ -10,7 +10,7 @@ return array(
 	'name'=>'My Web Application',
 
 	// preloading 'log' component
-	'preload'=>array('log'),
+	'preload'=>array('log', 'less'),
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -59,6 +59,14 @@ return array(
 				'pluginsDir' => 'application.vendor.smarty.smarty.distribution.libs.plugins',
 				'smartyDir' => 'application.vendor.smarty.smarty.distribution.libs'
 				//'configDir' => 'application.smartyConfig',
+		),
+		'less'=>array(
+			'class'=>'application.vendor.crisu83.yii-less.components.LessServerCompiler',
+			'files'=>array(
+				'static/less/styles.less'=>'static/css/styles.css',
+			),
+			'nodePath'=>'/usr/local/bin/node',
+			'compilerPath'=>'./less',
 		),
 		'log'=>array(
 			'class'=>'CLogRouter',

@@ -3,25 +3,25 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0a267c0d28226daed26954751127e396",
+    "hash": "e6889ddb4d5a713bc9c7de50367378e5",
     "packages": [
         {
-            "name": "cloudhead/less.js",
-            "version": "v1.6.0",
+            "name": "crisu83/yii-less",
+            "version": "v2.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/less/less.js.git",
-                "reference": "58af9f9763f1c816032d221237fb04b5b460142b"
+                "url": "https://github.com/Crisu83/yii-less.git",
+                "reference": "09532bf98bd6cc9048c6bb4a7761d90df3214e76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/less/less.js/archive/58af9f9763f1c816032d221237fb04b5b460142b.zip",
+                "url": "https://github.com/Crisu83/yii-less/archive/09532bf98bd6cc9048c6bb4a7761d90df3214e76.zip",
                 "reference": null,
                 "shasum": null
             },
-            "type": "library",
-            "description": "Leaner CSS",
-            "homepage": "https://github.com/less/less.js"
+            "type": "yii-extension",
+            "description": "Yii extension for compiling LESS files client and server-side.",
+            "homepage": "https://github.com/Crisu83/yii-less"
         },
         {
             "name": "smarty/smarty",
@@ -66,24 +66,6 @@
                 "templating"
             ],
             "time": "2013-12-17 16:56:58"
-        },
-        {
-            "name": "twitter/bootstrap",
-            "version": "v3.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "6d03173a1aad98e75f7d33e65b411c519176c59a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/twbs/bootstrap/archive/6d03173a1aad98e75f7d33e65b411c519176c59a.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "library",
-            "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
-            "homepage": "https://github.com/twbs/bootstrap"
         },
         {
             "name": "yiiext/migrate-command",
