@@ -23,6 +23,8 @@ $this->breadcrumbs=array(
 If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
 </p>
 
+<?php echo CHtml::link('Tasks', array('/UserAdmin/userTask/admin')); ?>
+
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(

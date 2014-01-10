@@ -6,9 +6,8 @@ nbproject
 /protected/runtime/
 /runtime/
 /protected/config/local.php
-/protected/yiic
-/protected/yiic.bat
-/protected/yiic.php
+/protected/config/main.local.php
+
 /protected/tests/
 
 
@@ -16,4 +15,3 @@ nbproject
 .settings/
 
 /static/css/compiled
-/protected/config/main.local.php

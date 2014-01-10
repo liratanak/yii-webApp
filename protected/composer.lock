@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "f4d4244704ef2d246311518b2432a1d5",
+    "hash": "fb8f0e3090ca023601718fc4843510b8",
     "packages": [
         {
             "name": "crisu83/yii-less",
@@ -66,6 +66,17 @@
                 "templating"
             ],
             "time": "2013-12-17 16:56:58"
+        },
+        {
+            "name": "yii-modules/useradmin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/yii-modules/useradmin.git",
+                "reference": "origin/master"
+            },
+            "type": "library",
+            "time": "2013-12-17 08:00:38"
         },
         {
             "name": "yiiext/migrate-command",
@@ -131,6 +142,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
+        "yii-modules/useradmin": 20,
         "yiiext/migrate-command": 20
     },
     "platform": {
