@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bb8a0aee5044d6dce3a98969c25c5470",
+    "hash": "3aa75de49f4b91bf299d0e5c0b6f9a36",
     "packages": [
         {
             "name": "crisu83/yii-less",
@@ -22,6 +22,55 @@
             "type": "yii-extension",
             "description": "Yii extension for compiling LESS files client and server-side.",
             "homepage": "https://github.com/Crisu83/yii-less"
+        },
+        {
+            "name": "sammaye/mongoyii",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sammaye/MongoYii.git",
+                "reference": "1bdf788f2fadcfb25c71440c9d33165a54758b2b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sammaye/MongoYii/zipball/1bdf788f2fadcfb25c71440c9d33165a54758b2b",
+                "reference": "1bdf788f2fadcfb25c71440c9d33165a54758b2b",
+                "shasum": ""
+            },
+            "type": "yii-extension",
+            "autoload": {
+                "classmap": [
+                    "./behaviors",
+                    "./util",
+                    "./validators",
+                    "./EMongoClient.php",
+                    "./EMongoCriteria.php",
+                    "./EMongoCursor.php",
+                    "./EMongoDataProvider.php",
+                    "./EMongoDocument.php",
+                    "./EMongoFile.php",
+                    "./EMongoLogRoute.php",
+                    "./EMongoModel.php",
+                    "./EMongoSort.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sammaye",
+                    "homepage": "http://sammaye.wordpress.com"
+                }
+            ],
+            "description": "A Yii MongoDB ORM",
+            "keywords": [
+                "mongodb",
+                "orm",
+                "yii"
+            ],
+            "time": "2014-01-09 08:40:33"
         },
         {
             "name": "smarty/smarty",

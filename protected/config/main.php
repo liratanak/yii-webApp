@@ -18,6 +18,11 @@ return array(
 		'application.components.*',
 		'application.modules.UserAdmin.components.*',
 		'application.modules.UserAdmin.models.*',
+
+		'application.vendor.sammaye.mongoyii.*',
+		'application.vendor.sammaye.mongoyii.validators.*',
+		'application.vendor.sammaye.mongoyii.behaviors.*',
+		'application.vendor.sammaye.mongoyii.util.*'
 	),
 
 	'modules'=>array(
@@ -47,6 +52,11 @@ return array(
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
+		),
+		'mongodb' => array(
+				'class' => 'EMongoClient',
+				'server' => 'mongodb://localhost:27017',
+				'db' => 'yii_mongo'
 		),
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=db_name',
