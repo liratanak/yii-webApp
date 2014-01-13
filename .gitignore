@@ -1,10 +1,13 @@
 nbproject
 .DS_Store
-/assets/
+/assets/*
+!/assets/NOTHING
 /protected/data/
 /protected/vendor/
-/protected/runtime/
-/runtime/
+/protected/runtime/*
+!/protected/runtime/NOTHING
+/runtime/*
+!/runtime/NOTHING
 /protected/config/local.php
 /protected/config/main.local.php
 
